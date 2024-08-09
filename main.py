@@ -29,7 +29,7 @@ class MedicalDiagnosisSystem(KnowledgeEngine):
 
     @Rule(AND(Symptom(name="fever"), Symptom(name="headache"), Symptom(name="chills"), NOT(Symptom(name="muscle_pain"))))
     def flu_diagnosis(self):
-        self.declare(Diagnosis(name="Influenza"))
+        self.declare(Diagnosis(name="Influenzar"))
 
     @Rule(Diagnosis(name="Malaria"))
     def malaria_treatment(self):
