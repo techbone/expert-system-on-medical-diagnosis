@@ -13,7 +13,7 @@ class MedicalDiagnosisSystem(KnowledgeEngine):
 
     @Rule()
     def startup_message(self):
-        print("Welcome to the Medical Diagnosis Expert System!")
+        print("Welcome to the Medical Diagnosis Expert System Intel!")
         print("Please input your symptoms to receive a diagnosis from the expert system.")
 
     @Rule()
