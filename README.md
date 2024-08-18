@@ -1,6 +1,6 @@
 # Medical Diagnosis Expert System
 
-Welcome to the Medical Diagnosis Expert System! This system is designed to diagnose diseases based on user-input symptoms.
+Welcome to the Medical Diagnosis Expert System! This system is designed to diagnose diseases based on user-input symptoms!.
 
 ## Overview
 
