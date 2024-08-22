@@ -44,7 +44,7 @@ class MedicalDiagnosisSystem(KnowledgeEngine):
 
     @Rule()
     def end_message(self):
-        print("Thank you for using the Medical Diagnosis Expert System AI!")
+        print("Thank you for using the Medical Diagnosis Expert System")
 
 
 if __name__ == "__main__":
