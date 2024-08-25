@@ -25,7 +25,7 @@ $ git clone https://github.com/your-username/medical-diagnosis-expert-system.git
 
 2. Install the required dependencies:
 
-$ pip install experta
+$ pip install experta package
 
 3. Run the system:
 
