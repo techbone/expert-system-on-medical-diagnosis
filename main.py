@@ -23,7 +23,7 @@ class MedicalDiagnosisSystem(KnowledgeEngine):
         for symptom in symptoms_list:
             self.declare(Symptom(name=symptom))
 
-    @Rule(OR(AND(Symptom(name="fever"), Symptom(name="headache"),Symptom("chills"),Symptom(name="muscle_pain")), OR(Symptom("discomfort"),Symptom(name="nausea"),Symptom("diarrhea"),Symptom(name="rapid_breathing"), Symptom(name="rapid_heart_rate"), Symptom(name="cough")))) 
+    @Rule(OR(AND(Symptom(name="Fever"), Symptom(name="headache"),Symptom("chills"),Symptom(name="muscle_pain")), OR(Symptom("discomfort"),Symptom(name="nausea"),Symptom("diarrhea"),Symptom(name="rapid_breathing"), Symptom(name="rapid_heart_rate"), Symptom(name="cough")))) 
     def malaria_diagnosis(self):
         self.declare(Diagnosis(name="Malaria"))
 
