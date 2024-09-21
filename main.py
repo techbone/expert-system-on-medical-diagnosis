@@ -14,8 +14,7 @@ class MedicalDiagnosisSystem(KnowledgeEngine):
     @Rule()
     def startup_message(self):
         print("Welcome to the Medical Diagnosis Expert System Assistant")
-        print("Please i
-        Input your symptoms to receive a diagnosis from The Expert System.")
+        print("Please Input your symptoms to receive a diagnosis from The Expert System.")
 
     @Rule()
     def get_symptoms_from_user(self):
