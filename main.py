@@ -40,7 +40,7 @@ class MedicalDiagnosisSystem(KnowledgeEngine):
 
     @Rule(AS.s << Symptom(name=L("Fever") | L("headache") | L("muscle_pain") | L("chills")) & ~Diagnosis())
     def unknown_symptoms(self, s):
-        print("Your symptoms does not match a specific disease!.")
+        print("Your symptoms does not match a specific disease.")
 
     @Rule()
     def end_message(self):
