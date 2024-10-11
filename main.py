@@ -18,7 +18,7 @@ class MedicalDiagnosisSystem(KnowledgeEngine):
 
     @Rule()
     def get_symptoms_from_user(self):
-        symptoms_input = input("Please, List all your symptoms separated by commas:\nSymptoms:").lower()
+        symptoms_input = input("List all your symptoms separated by commas:\nSymptoms:").lower()
         symptoms_list = [symptom.strip() for symptom in symptoms_input.split(',')]
         for symptom in symptoms_list:
             self.declare(Symptom(name=symptom))
