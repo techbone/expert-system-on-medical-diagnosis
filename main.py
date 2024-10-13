@@ -36,7 +36,7 @@ class MedicalDiagnosisSystem(KnowledgeEngine):
         print("You have been diagnosed with Malaria. Please do seek medical attention immediately please.")
     @Rule(Diagnosis(name="Influenza"))
     def flu_treatment(self):
-        print("You have been diagnosed with Influenza. Rest and drink plenty of fluids as advised by the Doc.")
+        print("You have been diagnosed with Influenza. Rest and drink plenty of fluids as advised by the Doctor.")
 
     @Rule(AS.s << Symptom(name=L("Fever") | L("Headache") | L("Muscle_Pain") | L("chills")) & ~Diagnosis())
     def unknown_symptoms(self, s):
