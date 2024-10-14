@@ -38,7 +38,7 @@ class MedicalDiagnosisSystem(KnowledgeEngine):
     def flu_treatment(self):
         print("You have been diagnosed with Influenza. Rest and drink plenty of fluids as advised by the Doctor.")
 
-    @Rule(AS.s << Symptom(name=L("Fever") | L("Headache") | L("Muscle_Pain") | L("chills")) & ~Diagnosis())
+    @Rule(AS.s << Symptom(name=L("Fever") | L("Headache") | L("Muscle_Pain") | L("Chills")) & ~Diagnosis())
     def unknown_symptoms(self, s):
         print("Your symptoms does not match a specific disease.")
 
