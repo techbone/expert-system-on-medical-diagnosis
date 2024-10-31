@@ -31,7 +31,7 @@ class MedicalDiagnosisSystem(KnowledgeEngine):
     def flu_diagnosis(self):
         self.declare(Diagnosis(name="Influenzar"))
 
-    @Rule(Diagnosis(name="Malaria"))
+    @Rule(Diagnosis(name="Malaria!"))
     def malaria_treatment(self):
         print("You have been diagnosed with Malaria. Please do seek medical attention immediately please.")
     @Rule(Diagnosis(name="Influenza"))
