@@ -56,7 +56,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-[Musa Muhammad Etudaye](https://github.com/techbone)
+[Musa Muhammad Etudaye.](https://github.com/techbone)
 
 [Jayeola Toluwani Daniel](https://github.com/Toluwani195)
 
