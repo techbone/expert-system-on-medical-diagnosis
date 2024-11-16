@@ -42,7 +42,7 @@ $ python medical_diagnosis_system.py
 
 ## Contributing
 
-Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
+Contributions are welcome!If you'd like to contribute to the project, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature-new-feature`).
