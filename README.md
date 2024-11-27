@@ -9,7 +9,7 @@ The Medical Diagnosis Expert System is built using the `experta` Python library,
 ## Features
 
 - Prompt users to input their symptoms.
-- Rule-based diagnosis of diseases based on user-input symptoms.
+- Rule based diagnosis of diseases based on user-input symptoms.
 - Handles both "must-have" and "may-have" symptoms for diagnosis.
 
 ## Requirements
