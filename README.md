@@ -22,7 +22,6 @@ The Medical Diagnosis Expert System is built using the `experta` Python library,
 ## Usage
 
 1. Clone the GitHub repository to your local computer:
-2. 
 
 $ git clone https://github.com/your-username/medical-diagnosis-expert-system.git
 
