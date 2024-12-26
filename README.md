@@ -17,7 +17,7 @@ The Medical Diagnosis Expert System is built using the `experta` Python library,
 ## Requirements
 
 - Python 3.01
-- `experta` Python library (install via `pip install experta`)
+- `experta` Python library (install via `pip install experta`).
 
 ## Usage
 
