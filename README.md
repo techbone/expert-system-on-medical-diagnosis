@@ -19,7 +19,7 @@ The Medical Diagnosis Expert System is built using the `experta` Python library,
 - Python 3.01
 - `experta` Python library (install via `pip install experta`).
 
-## Use procesd
+## Use process
 
 1. Clone the GitHub repository to your local computer:
 
