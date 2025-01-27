@@ -5,7 +5,7 @@ Welcome to the Medical Diagnosis Expert System!This system is designed to diagno
 ## Overview of Project
 
 
-The Medical Diagnosis Expert System is built using the `experta` Python library,which provides a rule-based expert system framework. The system prompts users to input their symptoms and uses a set of rules to diagnose diseases based on the symptoms provided.
+The Medical Diagnosis Expert System is built using the `experta` Python library,which provide a rule-based expert system framework. The system prompts users to input their symptoms and uses a set of rules to diagnose diseases based on the symptoms provided.
 
 ## Features
 
